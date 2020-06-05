@@ -54,12 +54,3 @@ export default class Parent extends React.Component{
         )
     }
 }
-
-
-/**
- *  正常执行: constructor => componentWillMount => render => componentDidMount
- *  数据更新：
- *      1. componentWillReceiveProps：父组件中改变了props传值时触发的函数
- * 
- * 
- */
