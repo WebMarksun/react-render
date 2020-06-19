@@ -2,7 +2,6 @@
 const preMountHoc = doSomething => ContentComponent => class PreMountComponent extends React.Component {
     constructor() {
         super();
-
         this.state = {
             loading: true,
             result: {},

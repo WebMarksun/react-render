@@ -14,6 +14,7 @@ const RouteConfig = () => {
             <Route path='/hooks/hooktest' component={HookTest}/>
             <Route path='/hooks/hookcase/usestate' component={UseState}/>
             <Route path='/hooks/count' component={Count}/>
+            <Route path='/promise' component={Count}/>
         </BrowserRouter>
     )
 }
